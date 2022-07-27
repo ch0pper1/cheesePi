@@ -1,0 +1,26 @@
+{ "recipe": "Colby", "instructions" : [
+    { "temp":0, "time":0, "description": "Let's get started. Please ensure that the water basin and the milk basin are full and that the heating element is plugged in.  Once you are ready, press next step above." },
+    { "temp":86, "time":0, "description": "Heat the milk to 86°F." },
+    { "temp":86, "time":0, "description": "Add the starter culture by sprinkling it on top of the milk, and let it rehydrate for a few minutes before stirring it in with an up-and-down motion of the spoon." },
+    { "temp":86, "time":60, "description": "Cover the milk and allow it to set, undisturbed, for one hour. If you are using coloring, stir it into the milk now." },
+    { "temp":86, "time":3, "description": "Make sure that the milk is still at 86°F. Add the diluted rennet. Mix it in well, using gentle up-and-down motions. Stir it for 1 minute, then stir just in the top part of the milk for 2 more minutes." },
+    { "temp":86, "time":30, "description": "Cover and let the milk set, undisturbed, for 1/2 hour." },
+    { "temp":86, "time":0, "description": "If after 30 minutes you have a clean break, cut the curd into 3/8-inch cubes. Stir them gently, then press next." },
+    { "temp":86, "time":5, "description": "Let the curds rest for 5 minutes." },
+    { "temp":88, "time":5, "description": "Heat the curds and whey 2°F every 5 minutes, until they are at 102°F. Stir to prevent the curds from matting (sticking together). Maintain the temperature at 102°F for 1/2 hour. Periodically stir them gently during this time, trying to keep them from matting." },
+    { "temp":90, "time":5, "description": "Heat the curds and whey 2°F every 5 minutes, until they are at 102°F. Stir to prevent the curds from matting (sticking together). Maintain the temperature at 102°F for 1/2 hour. Periodically stir them gently during this time, trying to keep them from matting." },
+    { "temp":92, "time":5, "description": "Heat the curds and whey 2°F every 5 minutes, until they are at 102°F. Stir to prevent the curds from matting (sticking together). Maintain the temperature at 102°F for 1/2 hour. Periodically stir them gently during this time, trying to keep them from matting." },
+    { "temp":94, "time":5, "description": "Heat the curds and whey 2°F every 5 minutes, until they are at 102°F. Stir to prevent the curds from matting (sticking together). Maintain the temperature at 102°F for 1/2 hour. Periodically stir them gently during this time, trying to keep them from matting." },
+    { "temp":96, "time":5, "description": "Heat the curds and whey 2°F every 5 minutes, until they are at 102°F. Stir to prevent the curds from matting (sticking together). Maintain the temperature at 102°F for 1/2 hour. Periodically stir them gently during this time, trying to keep them from matting." },
+    { "temp":98, "time":5, "description": "Heat the curds and whey 2°F every 5 minutes, until they are at 102°F. Stir to prevent the curds from matting (sticking together). Maintain the temperature at 102°F for 1/2 hour. Periodically stir them gently during this time, trying to keep them from matting." },
+    { "temp":100, "time":5, "description": "Heat the curds and whey 2°F every 5 minutes, until they are at 102°F. Stir to prevent the curds from matting (sticking together). Maintain the temperature at 102°F for 1/2 hour. Periodically stir them gently during this time, trying to keep them from matting." },
+    { "temp":102, "time":30, "description": "Heat the curds and whey 2°F every 5 minutes, until they are at 102°F. Stir to prevent the curds from matting (sticking together). Maintain the temperature at 102°F for 1/2 hour. Periodically stir them gently during this time, trying to keep them from matting." },
+    { "temp":80, "time":0, "description": "Pour off the whey until the amount in the pot just covers the curds. Continuing to stir, add 60°F (cool) water until the temperature in the pot reaches 80°F." },
+    { "temp":80, "time":15, "description": "Maintain the 80°F temperature for 15 minutes. Stir frequently." },
+    { "temp":0, "time":15, "description": "Drain the curds in a colander lined with cheesecloth. Allow them to drain for 15 minutes. Pour the whey back into the basin." },
+    { "temp":0, "time":0, "description": "Mill the curds, breaking them to thumbnail-size pieces and gently mixing in the salt." },
+    { "temp":102, "time":0, "description": "Keep the curds in a colander at 98°F for 1 hour, flipping every 15 minutes."},
+    { "temp":98, "time":60, "description": "Keep the curds in a colander at 98°F for 1 hour, flipping every 15 minutes."},
+	{ "temp":0, "time":0, "description": "Cut the curds into bite size pieces and enjoy!"}
+ ]
+}

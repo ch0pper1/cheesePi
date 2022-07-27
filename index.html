@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Cheese Pi with MQTT</title>
+		<link href="src/css/style.css" rel="stylesheet">
+		<script src="src/js/paho-mqtt.js" type="text/javascript"></script>
+		<script src="src/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+		<script src="src/js/r.js" type="text/javascript"></script>
+		<!--<script type="text/javascript" src="src/js/jquery.jqplot.min.js"></script>
+		<script type="text/javascript" src="src/js/jqplot.canvasTextRenderer.min.js"></script>
+		<script type="text/javascript" src="src/js/jqplot.canvasAxisLabelRenderer.min.js"></script>
+		<script type="text/javascript" src="src/js/jqplot.dateAxisRenderer.min.js"></script>
+		<script src="src/js/timer.js" type="text/javascript"></script> -->
+		<!-- Client scripts -->
+		<script src="src/js/cheesePi.js" type="text/javascript"></script>
+		<!--<script src="src/js/colby.js" type="text/javascript"></script> -->
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td width="75%"><h1>Let's Make some Fucking Cheese!!!</h1></td>
+				<td style="horizontal-align:right">Cheese Recipe: <select id="recipe"><option disabled selected>Select Recipe</option></select></td>
+			</tr>
+		</table>
+		<div>
+			<table class="table table-striped">
+				<tr>
+					<td width="40%" style="vertical-align:middle;"><h3>Milk Temperature: &nbsp;<span id="mTempLabel" class="label">Unknown</span></h3></td>
+					<td width="40%" style="vertical-align:middle;"><h3>Water Temperature: &nbsp;<span id="wTempLabel" class="label">Unknown</span></h3></td>
+					<td width="40%" style="vertical-align:middle;"><h3>Timer: <span id="time"></span></h3></td>
+					<td width="40%" style="vertical-align:middle;"><h3>Target Temp: <span id="temp"></span></h3></td>
+				</tr>
+				<!--<tr>
+					<td style="vertical-align:middle;"><div id="mTempChart" style="height:180px; width:180px;"></div></td>
+					<td style="vertical-align:middle;"><div id="wTempChart" style="height:180px; width:180px;"></div></td>
+				</tr> -->
+				<tr>
+					<td style="vertical-align:middle;"><h4 onclick="toggleHeater()">Heater Status: &nbsp;<span id="heaterLabel" class="label">Unknown</span></h4></td>
+					<td style="vertical-align:middle;"><h4 onclick="togglePump()">Pump Status: &nbsp;<span id="pumpLabel" class="label">Unknown</span></h4></td>
+					<td style="vertical-align:middle;text-align:center;"><h4 onclick="nextStep()"><span id="nextLabel" class="label">Next Step</span></h4></td>
+				</tr>
+				<tr>
+					<td colspan="3" style="vertical-align:middle;"><span id="currentStep">Unknown</span></td>
+				</tr>
+			</table>
+		</div>
+		<div id="instructions" class="list">
+		<h2>Cheese Making Instructions</h2>
+			<ol class="table" id="list">
+			</ol>
+		</div>
+	</body>
+</html>
